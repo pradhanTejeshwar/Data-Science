@@ -1,0 +1,13 @@
+Normal distribution -> Gaussian
+Discrete -> Poisson
+Time interval -> Exponential
+68%	95%	99.7%
+M+-1SD	M+-2SD	M+-3SD
+
+Q. What is the avg claim for the male and females ?
+Q. Do you think the claim is more for older people and quite less for the younger ones ?
+Q. Do you think there is core relation between BMI and claim ?
+Q. Do you think there is core relation between Bloodpressure and claim ?
+Q. What is the distribution of the claim variable for females who are aged between 34 and 48 ?
+Q. What is the maximum claim for diabetic smoker patients ?
+Q. How many males are smoker and non-diabetic ?
