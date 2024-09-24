@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Q23 {
+	public ArrayList call(ArrayList a, int b) {
+		ArrayList output= new ArrayList();
+		for (int i = 0; i < output.size(); i++) {
+			a.remove(b);
+		    System.out.println(output.get(i));
+		}
+		for (int i = 0; i < a.size(); i++) {
+		    System.out.println(output.get(i));
+		}
+		return output;
+	}
+}

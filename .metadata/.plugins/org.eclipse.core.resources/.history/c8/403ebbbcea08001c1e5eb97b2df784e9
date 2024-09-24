@@ -1,0 +1,30 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class Q5Main {
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the String");
+		String a1= sc.nextLine();
+		sc.close();
+		
+		//Calling the function for q5
+		String str=q5(a1);
+		
+		//Printing the Output from the function 
+		System.out.println(str);
+	}
+
+	public static String q5(String a) {
+		String str[] = a.split("\\*");
+		String val1 = str[0];
+		
+		String val2 = str[1];
+		
+		if((val1.charAt(val1.length()-1))==(val2.charAt(0)))
+			return "True";
+		else
+			return "False";
+	}	
+}

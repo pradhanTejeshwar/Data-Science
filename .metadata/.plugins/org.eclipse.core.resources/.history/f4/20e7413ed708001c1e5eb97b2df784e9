@@ -1,0 +1,17 @@
+import java.util.Arrays;
+
+public class Q14 {
+	public String[] call(String[] a, String[] b) {
+		String[] Output=new String[4];
+		return Output;
+	}
+	public String[] reverseArray(String[] arr) {
+        List list = Arrays.asList(arr);
+        
+        Collections.reverse(list);
+        
+        String[] reversedArray = list.toArray(arr);
+        
+        return reversedArray
+   }
+}

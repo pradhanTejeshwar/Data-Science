@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.sun.jdi.Value;
+
+public class Q23Main {
+	public static void main(String[] args) {
+		ArrayList list=new ArrayList();
+		int value=0;
+		ArrayList Output=new ArrayList();
+		
+		Scanner sc=new Scanner(System.in);
+		int answer;
+	
+		do {
+				answer = sc.nextInt();
+				list.add(answer);	
+			}while(answer != 0);
+		
+		value = sc.nextInt();
+		
+		sc.close();
+		
+		
+		
+        }
+}

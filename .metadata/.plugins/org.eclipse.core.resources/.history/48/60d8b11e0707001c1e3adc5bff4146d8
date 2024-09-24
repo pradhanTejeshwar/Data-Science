@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class Q9 {
+	public static void main(String[] args) {
+		int val=10;
+//		Scanner sc=new Scanner(System.in);
+//		val = sc.nextInt();
+		
+	}
+}

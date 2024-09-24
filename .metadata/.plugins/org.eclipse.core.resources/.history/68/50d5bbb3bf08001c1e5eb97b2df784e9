@@ -1,0 +1,7 @@
+public class Q4Main {
+	public static void main(String[] args) {
+		int[] input1=new int[3];
+		int[] input2=new int[3];
+		
+	}
+}

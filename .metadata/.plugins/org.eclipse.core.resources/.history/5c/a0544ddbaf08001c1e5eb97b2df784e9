@@ -1,0 +1,51 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Q3Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int []a1 = new int[5];
+		int []b1 = new int[5];
+		int []c1 = new int[5];
+		int index=0;
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("input1=");
+		for(int i=0;i<5;i++)
+			a1[i]= sc.nextInt();
+		
+		
+		System.out.println("input2=");
+		for(int i=0;i<5;i++)
+			a1[i]= sc.nextInt();
+		
+		sc.close();
+		
+		for(int i=0;i<5;i++)
+		{
+			for(int j=0;j<5;j++)
+			{
+				if(a1[i]!=b1[j])
+				{
+						int t=a1[i];
+						if(Arrays.binarySearch(c1,t)<0)
+							c1[index++]=a1[i];
+				}
+			}
+		}
+		
+		
+		System.out.println("List-1");
+		for(int i=0;i<5;i++)
+			System.out.print(a1[i]+" ");
+		
+		System.out.println("List-2");
+		for(int i=0;i<5;i++)
+			System.out.print(a1[i]+" ");
+		System.out.println("List-3");
+		for(int i=0;i<25;i++)
+			System.out.print(c1[i]+" ");
+	}
+
+}

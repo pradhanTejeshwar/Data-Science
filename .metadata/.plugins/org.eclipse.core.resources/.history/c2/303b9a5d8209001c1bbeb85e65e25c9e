@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Q4Main {
+//	public static void main(String[] args) {
+//		String[] input1=new String[3];
+//		String[] input2=new String[3];
+//		Scanner sc=new Scanner(System.in);
+//		String[] output=new String[6];
+//		
+//		for(int i=0;i<3;i++)
+//			input1[i]=sc.next();
+//		
+//		for(int i=0;i<3;i++)
+//			input2[i]=sc.next();
+//		
+//		Q4 obj=new Q4();
+//		output =obj.call(input1,input2);
+//			
+//		for(int i=0;i<output.length;i++)
+//			System.out.print(output[i]+",");
+//	}
+}

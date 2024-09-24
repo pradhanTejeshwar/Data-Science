@@ -1,0 +1,15 @@
+public class Ching {
+	public String Ching(String msg) {
+		return msg;
+	}
+	public String setChing(int Ching){
+		try {
+			if(Ching<100 || Ching>120)
+				throw new Ching("ChingException");
+			else
+				return "ching... chong";		
+		}
+		catch(Exception ae) {
+			System.out.println(ae);
+		}
+}

@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Q23 {
+	public ArrayList call(ArrayList a, int b) {
+		ArrayList output= new ArrayList();
+		
+		output=a.remove(b);
+		
+		return output;
+	}
+}

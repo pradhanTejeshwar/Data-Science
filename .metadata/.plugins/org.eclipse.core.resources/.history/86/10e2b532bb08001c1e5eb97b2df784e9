@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Q23Main {
+	public static void main(String[] args) {
+		ArrayList list=new ArrayList();
+		int value=0;
+		ArrayList Output=new ArrayList();
+		
+		Scanner sc=new Scanner(System.in);
+		int answer;
+	
+		do {
+				answer = sc.nextInt();
+				list.add(answer);	
+			}while(answer != 0);
+		
+		value = sc.nextInt();
+		
+		sc.close();
+		
+		Q23 obj=new Q23();
+		Output=obj.call(list, value);
+		
+		for (int i = 0; i < Output.size(); i++) {
+		      System.out.println(Output.get(i));
+        }
+	}
+}

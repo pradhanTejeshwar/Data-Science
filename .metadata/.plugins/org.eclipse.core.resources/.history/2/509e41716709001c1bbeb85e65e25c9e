@@ -1,0 +1,7 @@
+public class Main {
+	public static void main(String[] args) {
+		String[] str1=new String[] {"apple", "orange", "grapes"};
+		for(String temp:str1)
+			System.out.println(temp+",");
+	}
+}

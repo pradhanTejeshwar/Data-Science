@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Q23Main {
+	public static void main(String[] args) {
+		ArrayList list=new ArrayList();
+		//Scanner scanner=new Scanner(System.in);
+		//int answer = scanner.nextInt();
+		
+	}
+
+}

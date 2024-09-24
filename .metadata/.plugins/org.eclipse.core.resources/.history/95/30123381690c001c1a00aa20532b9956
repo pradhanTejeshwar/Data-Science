@@ -1,0 +1,9 @@
+interface TestInf{
+	int i =10;
+}
+public class Main1{
+	public static void main(String args[]) {
+		TestInf.i=12;
+		System.out.println("i :"+TestInf.i);
+	}
+}

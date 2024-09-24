@@ -1,0 +1,30 @@
+public class Q4 {
+	public String[] call(String[] a,String[] b) {
+		String[] output=new String[5];
+		for(int i=0;i<a.length;i++) {
+			char ch=a[i].charAt(0);
+			if(ch=='a' || ch=='g') {
+				
+			}
+		}
+		
+		return output;
+	}
+	public static int[] removeTheElement(int[] arr,int index){
+		if (arr == null || index < 0 || index >= arr.length) {
+			return arr;
+		}
+		
+		int[] anotherArray = new int[arr.length - 1];
+	
+		for (int i = 0, k = 0; i < arr.length; i++) {
+			if (i == index) {
+			continue;
+			}
+			anotherArray[k++] = arr[i];
+		}
+		
+		// return the resultant array
+		return anotherArray;
+	}
+}

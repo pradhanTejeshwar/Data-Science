@@ -1,0 +1,20 @@
+import java.util.Scanner;
+import java.util.Arrays;  
+
+public class Q14Main {
+
+	public static void main(String[] args) {
+		String[] input=new String[4];
+		
+		Scanner sc=new Scanner(System.in);
+		String[] output=new String[4];
+		
+		for(int i=0;i<4;i++)
+			input[i]=sc.next();
+		
+		Arrays.sort(input);
+		
+		
+	}
+
+}

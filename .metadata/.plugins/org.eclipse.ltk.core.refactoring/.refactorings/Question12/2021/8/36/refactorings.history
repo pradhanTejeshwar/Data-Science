@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Q12main&apos; to &apos;Q12Main&apos;&#x0D;&#x0A;- Original project: &apos;Question12&apos;&#x0D;&#x0A;- Original element: &apos;Q12main&apos;&#x0D;&#x0A;- Renamed element: &apos;Q12Main&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Q12main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Q12main.java[Q12main" matchStrategy="1" name="Q12Main" qualified="false" references="true" similarDeclarations="false" stamp="1630339160639" textual="false" version="1.0"/>
+</session>

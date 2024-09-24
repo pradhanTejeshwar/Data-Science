@@ -1,0 +1,6 @@
+public class Chingexception extends RuntimeException {
+	public String Chingexception(String msg) {
+		super();
+		return msg;
+	}
+}

@@ -1,0 +1,12 @@
+
+public class Q13 {
+	public int[] Q13(Class<input1[]> class1,Class<input2[]> class2) {
+		int output[] = null;
+		System.arraycopy(class1, 0, output, 0, 1);
+		System.arraycopy(class2, 1, output, 1, 1);
+		System.arraycopy(class1, 2, output, 2, 1);
+		System.arraycopy(class2, 3, output, 3, 1);
+		System.arraycopy(class1, 4, output, 4, 1);
+		return output;
+	}	
+}

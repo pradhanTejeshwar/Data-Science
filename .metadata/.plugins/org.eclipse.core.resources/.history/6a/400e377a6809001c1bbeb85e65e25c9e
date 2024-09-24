@@ -1,0 +1,22 @@
+public class Main {
+	public static void main(String[] args) {
+		String[] str1=new String[] {"apple", "orange", "grapes"};
+		String[] str2=new String[] {"apple", "orange", "grapes"};
+		int index=0;
+		String[] str3=new String[6];
+		for(String temp:str1) {
+			char ch=temp.charAt(0);
+			if(ch=='a' || ch=='g')
+				str3[index++]=temp;
+			System.out.println(ch+",");
+		}
+		for(String temp:str2) {
+			char ch=temp.charAt(temp.length() - 1);
+			if(ch=='a' || ch=='g')
+				str3[index++]=temp;
+			System.out.println(ch+",");
+		}
+		for(String temp:str3)
+			System.out.println(str3);
+	}
+}

@@ -1,0 +1,11 @@
+
+public class Main1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a="68/33*1/78";
+		String str[] = a.split("\\*");
+		System.out.println(str[0]);
+	}
+
+}

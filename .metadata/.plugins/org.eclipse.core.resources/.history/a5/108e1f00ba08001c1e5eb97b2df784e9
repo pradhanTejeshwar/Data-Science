@@ -1,0 +1,11 @@
+import java.util.ArrayList;
+
+public class Q23 {
+	public ArrayList call(ArrayList a, int b) {
+		ArrayList output= new ArrayList();
+		
+		output=a.removeAll(Arrays.asList(b));
+		
+		return output;
+	}
+}

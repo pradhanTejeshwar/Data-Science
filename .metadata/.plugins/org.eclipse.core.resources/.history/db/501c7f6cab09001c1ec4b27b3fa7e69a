@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Q12Main {
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter string");
+		String str=sc.next();
+		Q12 obj =new Q12();
+		sc.close();
+		String r1=obj.Givedate(str);
+		boolean b1=obj.Verifylen(str);
+		boolean b2=obj.Verifystr4(str);
+		boolean b3=obj.verifyYear(str);
+		boolean b4=obj.verifyMonth(str);
+		boolean b5=obj.verifyDay(str);
+		String r2=obj.giveWithoutDate(str);
+		System.out.println(r1);
+		System.out.println(b1);
+		System.out.println(b2);
+		System.out.println(b3);
+		System.out.println(b4);
+		System.out.println(b5);
+		System.out.println(r2);
+
+
+	}
+
+}

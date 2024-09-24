@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Q9 {
+	public static void main(String[] args) {
+		int val=10;
+//		Scanner sc=new Scanner(System.in);
+//		val = sc.nextInt();
+		Ching obj=new Ching();
+		try {
+				obj.setChing(val);
+		}
+		catch(Exception ae) {
+			System.out.println(ae);
+		}
+	}
+}
