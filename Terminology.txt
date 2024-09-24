@@ -1,0 +1,23 @@
+Confidence level
+Zscore = (x-mue)/(sigma/root of n)
+p-value PR(Hypo|Data)
+interval estimate = point estimate +- margin of error == X dash +- Z Aplha/2 * sigma/root n
+
+frequency of each of the level. 
+
+train data -> seen data
+test data  -> unseen data
+
+parametric test -> assume data ex.Linear Regression
+non-parametric test -> doesn't assume data
+
+
+Assumption :-
+
+-> target variable numeric in nature
+-> 2 or more independent variable which can be both numerical and catagarical 
+-> There should not be any MultiCollinearity
+-> There should not be any AutoCorrelation
+-> There should not be any HeteroSkedasticity
+
+MultiCollinearity:- Is a situation where your independent variables are highly correlated
